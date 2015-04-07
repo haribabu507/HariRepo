@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>com.test</name>
-  <url>http://maven.apache.org</url> 
+  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,4 +21,12 @@
 		</repository>
     </distributionManagement>
 	
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
