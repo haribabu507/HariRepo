@@ -16,15 +16,9 @@
 
   <distributionManagement>
         <repository>
-            <id>sbtg-ssa-release</id>
-            <name>Cisco OnPlus Group</name>
-            <url>C:\onplus</url>
-        </repository>
-        <snapshotRepository>
-            <id>sbtg-ssa-snapshots</id>
-            <name>Cisco OnPlus Snapshots</name>
-            <url>C:\onplus</url>
-        </snapshotRepository>
+			<id>myrepository</id>
+			<url>file:D:/repository/</url>
+		</repository>
     </distributionManagement>
 	
   <dependencies>
